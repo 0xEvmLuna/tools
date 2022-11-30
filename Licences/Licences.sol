@@ -40,7 +40,7 @@ contract EIP1753 is IEIP1753 {
 	
 	constructor(address owner, string memory _name) public {
 		_owner = owner;
-        name  = _name;
+        	name  = _name;
 	}
 	
     // 将地址添加到有权修改许可的地址白名单中
